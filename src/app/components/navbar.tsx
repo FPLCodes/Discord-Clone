@@ -116,7 +116,7 @@ export default function Navbar() {
                           </a>
                         </div>
                       </div>
-                      <Link href="/">
+                      <Link href="/" className="flex w-max">
                         <Image
                           alt="dark discord logo"
                           src="/discord_dark.svg"
