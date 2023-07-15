@@ -26,8 +26,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      headline: ["ABC Ginto Nord Black Regular", "Noto Sans", "Helvetica Neue"],
-      primary: ["gg sans", "Noto Sans", "Helvetica Neue"],
+      headline: ["var(--font-ginto)", "Noto Sans", "Helvetica Neue"],
+      primary: ["var(--font-ggSans)", "Noto Sans", "Helvetica Neue"],
     },
   },
   plugins: [],
