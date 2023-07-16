@@ -4,7 +4,7 @@ import { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Backdrop } from "@mui/material";
 const bodyScroll = require("body-scroll-lock");
-import DownloadButton from "./download_btn";
+import DownloadButton from "./DownloadButton";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
