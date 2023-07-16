@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import BlackDownloadButton from "../components/BlackDownloadButton";
 import Image from "next/image";
+import Dropdown from "../components/Dropdown";
 const Footer = dynamic(() => import("@/app/footer"));
 const Navbar = dynamic(() => import("@/app/components/Navbar"));
 const DownloadButton = dynamic(() => import("@/app/components/DownloadButton"));
@@ -83,7 +84,7 @@ export default function Home() {
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 col-span-1 row-span-2 bg-offwhite">
               <div className="flex flex-col items-center">
                 <h3 className="leading-[120%] font-semibold ">Linux</h3>
-                <BlackDownloadButton />
+                <BlackDownloadButton dropdown />
               </div>
               <Image
                 className="mt-6 md:mt-16 w-full md:w-auto min-w-max"
@@ -117,20 +118,10 @@ export default function Home() {
                 launch.
               </div>
               <div className="relative">
-                <button className="rounded-full text-xl py-4 px-8 bg-notQuiteBlack text-white leading-6 font-medium inline-flex items-center cursor-pointer transition-all duration-300 hover:shadow-xl hover:bg-zinc-700">
-                  Download Public Test build
-                  <svg
-                    className="ml-2 rotate-90"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 32 32"
-                  >
-                    <path
-                      d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </button>
+                <BlackDownloadButton
+                  dropdown
+                  text="Download Public Test Build"
+                />
               </div>
             </div>
           </div>
