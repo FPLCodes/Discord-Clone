@@ -13,7 +13,7 @@ export default function DownloadButton({
       <Image
         className="mr-2"
         alt="white download icon"
-        src="/svgexport-8.svg"
+        src="/download.svg"
         width={24}
         height={24}
       />

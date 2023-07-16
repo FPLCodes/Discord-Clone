@@ -75,7 +75,7 @@ export default function Footer() {
               <Image
                 className="cursor-pointer"
                 alt="twitter logo"
-                src="/svgexport-9.svg"
+                src="/twitter.svg"
                 width={24}
                 height={24}
               />
@@ -84,7 +84,7 @@ export default function Footer() {
               <Image
                 className="cursor-pointer"
                 alt="instagram logo"
-                src="/svgexport-10.svg"
+                src="/instagram.svg"
                 width={24}
                 height={24}
               />
@@ -93,7 +93,7 @@ export default function Footer() {
               <Image
                 className="cursor-pointer"
                 alt="facebook logo"
-                src="/svgexport-11.svg"
+                src="/facebook.svg"
                 width={24}
                 height={24}
               />
@@ -102,7 +102,7 @@ export default function Footer() {
               <Image
                 className="cursor-pointer"
                 alt="youtube logo"
-                src="/svgexport-12.svg"
+                src="/youtube.svg"
                 width={24}
                 height={24}
               />
@@ -111,7 +111,7 @@ export default function Footer() {
               <Image
                 className="cursor-pointer"
                 alt="tiktok logo"
-                src="/svgexport-13.svg"
+                src="/tiktok.svg"
                 width={24}
                 height={24}
               />
@@ -170,7 +170,7 @@ export default function Footer() {
             <Image
               className="cursor-pointer"
               alt="discord logo"
-              src="/svgexport-1.svg"
+              src="/discord.svg"
               width={124}
               height={34}
             />

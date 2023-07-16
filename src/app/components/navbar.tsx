@@ -52,7 +52,7 @@ export default function Navbar() {
           <Link href="/" className="justify-center cursor-pointer flex-none">
             <Image
               alt="discord logo"
-              src="/svgexport-1.svg"
+              src="/discord.svg"
               width={124}
               height={34}
             />
