@@ -6,8 +6,10 @@ const Footer = dynamic(() => import("@/app/footer"));
 const Navbar = dynamic(() => import("@/app/components/Navbar"));
 const DownloadButton = dynamic(() => import("@/app/components/DownloadButton"));
 const BlackDownloadButton = dynamic(
-  () => import("@/app/components/BlackDownloadButton")
+  () => import("@/app/download/BlackDownloadButton")
 );
+import { Menu } from "@headlessui/react";
+import DownloadDropdown from "./DownloadDropdown";
 
 export default function Home() {
   return (
@@ -85,7 +87,7 @@ export default function Home() {
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 col-span-1 row-span-2 bg-offwhite">
               <div className="flex flex-col items-center">
                 <h3 className="leading-[120%] font-semibold ">Linux</h3>
-                <BlackDownloadButton dropdown />
+                <DownloadDropdown options={["deb", "tar.gz"]} text="Download" />
               </div>
               <Image
                 className="mt-6 md:mt-16 w-full md:w-auto min-w-max"
@@ -118,12 +120,10 @@ export default function Home() {
                 Try our Public Test Build and test new features before they
                 launch.
               </div>
-              <div className="relative">
-                <BlackDownloadButton
-                  dropdown
-                  text="Download Public Test Build"
-                />
-              </div>
+              <DownloadDropdown
+                options={["Windows", "Linux deb", "Linux tar.gz", "Mac"]}
+                text="Download Public Test Build"
+              />
             </div>
           </div>
         </div>
