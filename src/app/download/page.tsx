@@ -1,12 +1,13 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import BlackDownloadButton from "../components/BlackDownloadButton";
 import Image from "next/image";
-import Dropdown from "../components/Dropdown";
 const Footer = dynamic(() => import("@/app/footer"));
 const Navbar = dynamic(() => import("@/app/components/Navbar"));
 const DownloadButton = dynamic(() => import("@/app/components/DownloadButton"));
+const BlackDownloadButton = dynamic(
+  () => import("@/app/components/BlackDownloadButton")
+);
 
 export default function Home() {
   return (

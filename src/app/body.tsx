@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { useEffect } from "react";
+import Image from "next/image";
 import DownloadButton from "./components/DownloadButton";
 
 export default function Body() {

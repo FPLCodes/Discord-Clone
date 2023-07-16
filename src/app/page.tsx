@@ -1,9 +1,9 @@
 "use client";
 
 import dynamic from "next/dynamic";
-const Footer = dynamic(() => import("@/app/footer"));
-const Body = dynamic(() => import("@/app/body"));
 const Intro = dynamic(() => import("@/app/intro"));
+const Body = dynamic(() => import("@/app/body"));
+const Footer = dynamic(() => import("@/app/footer"));
 
 export default function Home() {
   return (

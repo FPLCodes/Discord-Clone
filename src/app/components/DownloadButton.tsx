@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 
-export default function DownloadButton({
-  text,
-  className,
-}: {
+interface Props {
   text: ReactNode;
   className: string;
-}) {
+}
+
+export default function DownloadButton({ text, className }: Props) {
   return (
     <a className={className}>
       <Image
