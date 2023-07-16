@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useEffect } from "react";
+import DownloadButton from "./components/download_btn";
 
 export default function Body() {
   useEffect(() => {
@@ -154,18 +155,14 @@ export default function Body() {
           <h4 className="text-[32px] font-bold leading-tight z-10 mt-[30px] text-center">
             Ready to start your journey?
           </h4>
-          <a className="bg-brand inline-flex py-4 px-8 mt-10 rounded-full cursor-pointer self-center justify-center w-full md:w-max transition-all duration-300 hover:shadow-xl hover:bg-indigo-400">
-            <Image
-              className="mr-2"
-              alt="white download icon"
-              src="/svgexport-8.svg"
-              width={24}
-              height={24}
-            />
-            <p className="text-white text-xl font-medium">
-              Download for Windows
-            </p>
-          </a>
+          <DownloadButton
+            text={
+              <p className="text-white text-xl font-medium">
+                Download for Windows
+              </p>
+            }
+            className="bg-brand inline-flex py-4 px-8 mt-10 rounded-full cursor-pointer self-center justify-center w-full md:w-max transition-all duration-300 hover:shadow-xl hover:bg-indigo-400"
+          />
         </div>
       </div>
     </main>

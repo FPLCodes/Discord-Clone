@@ -4,6 +4,7 @@ import { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Backdrop } from "@mui/material";
 const bodyScroll = require("body-scroll-lock");
+import DownloadButton from "./download_btn";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -103,17 +104,15 @@ export default function Navbar() {
                         </Menu.Item>
                       </div>
                       <div className="absolute left-0 right-0 bottom-0 h-[120px] flex flex-col justify-end">
-                        <div className="p-6">
-                          <a className="bg-brand py-2 px-4 rounded-full cursor-pointer flex items-center text-white font-medium justify-center transition-all duration-300 hover:shadow-xl hover:bg-indigo-400">
-                            <Image
-                              className="mr-2"
-                              alt="white download icon"
-                              src="/svgexport-8.svg"
-                              width={24}
-                              height={24}
-                            />
-                            Download for Windows
-                          </a>
+                        <div className="p-6 flex justify-center">
+                          <DownloadButton
+                            text={
+                              <p className="text-white text-sm font-medium self-center">
+                                Download for Windows
+                              </p>
+                            }
+                            className="bg-brand inline-flex py-[7px] px-4 mt-10 rounded-full cursor-pointer self-center justify-center w-full transition-all duration-300 hover:shadow-xl hover:bg-indigo-400"
+                          />
                         </div>
                       </div>
                       <Link href="/" className="flex w-max">
