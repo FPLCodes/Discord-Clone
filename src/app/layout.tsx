@@ -1,9 +1,5 @@
-"use client";
-
 import "./globals.css";
 import localFont from "next/font/local";
-import dynamic from "next/dynamic";
-const Footer = dynamic(() => import("@/app/footer"));
 
 export const metadata = {
   title: "Discord | Your Place to Talk and Hang Out",
@@ -54,10 +50,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body>
-        {children}
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

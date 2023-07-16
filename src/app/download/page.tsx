@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import BlackDownloadButton from "../components/black_download_btn";
 import Image from "next/image";
+const Footer = dynamic(() => import("@/app/footer"));
 const Navbar = dynamic(() => import("@/app/components/navbar"));
 const DownloadButton = dynamic(() => import("@/app/components/download_btn"));
 
@@ -138,6 +139,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </main>
   );
 }
