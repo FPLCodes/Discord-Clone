@@ -10,6 +10,10 @@ h2 {
   font-size: clamp(20px, 4vw, 40px);
 }
 
+h3 {
+  font-size: clamp(18px, 3vw, 32px);
+}
+
 .fade-up {
   transform: translateY(50px);
   opacity: 0;
