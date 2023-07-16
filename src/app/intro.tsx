@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 
 export default function Intro() {
   return (
-    <main className="relative md:min-h-[626px] md:pb-20 lg:pb-0 w-full flex flex-col items-center overflow-hidden bg-background">
+    <div className="relative md:min-h-[626px] md:pb-20 lg:pb-0 w-full flex flex-col items-center overflow-hidden bg-background">
       <Navbar />
       <div className="py-14 md:py-20 lg:py-32 px-6 md:px-10 z-10 w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-x-5">
         <div className="lg:col-start-3 col-span-4 md:col-span-5 lg:col-span-8 lg:text-center z-10">
@@ -63,6 +63,6 @@ export default function Intro() {
           height={360}
         />
       </div>
-    </main>
+    </div>
   );
 }
