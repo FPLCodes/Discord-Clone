@@ -17,6 +17,7 @@ module.exports = {
         brand: "#5865F2",
         background: "#404EED",
         notQuiteBlack: "#23272A",
+        offwhite: "#F6F6F6",
       },
       maxWidth: {
         "7xl": "1260px",

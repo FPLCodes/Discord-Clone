@@ -20,19 +20,24 @@ export default function Navbar() {
   };
 
   return (
-    <main className="z-50 w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 px-6 md:px-10 gap-x-5">
+    <div className="z-50 w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 px-6 md:px-10 gap-x-5">
       <header className="col-span-12 text-white text-sm hidden lg:flex">
         <nav className="flex items-center justify-between w-full h-20 z-10">
           <Link href="/" className="justify-center cursor-pointer flex-none">
             <Image
               alt="discord logo"
-              src="/svgexport-1.svg"
+              src="/discord.svg"
               width={124}
               height={34}
             />
           </Link>
           <div className="flex-auto text-center font-semibold leading-[140%] w-full text-base font-primary">
-            <a className="hover:underline cursor-pointer m-3 p-2">Download</a>
+            <Link
+              href="/download"
+              className="hover:underline cursor-pointer m-3 p-2"
+            >
+              Download
+            </Link>
             <a className="hover:underline cursor-pointer m-3 p-2">Nitro</a>
             <a className="hover:underline cursor-pointer m-3 p-2">Discover</a>
             <a className="hover:underline cursor-pointer m-3 p-2">Safety</a>
@@ -47,7 +52,7 @@ export default function Navbar() {
           </div>
         </nav>
       </header>
-      <header className="col-span-4 md:col-span-8 justify-center text-white text-sm bg-background flex lg:hidden">
+      <header className="col-span-4 md:col-span-8 justify-center text-white text-sm flex lg:hidden">
         <nav className="flex justify-between items-center w-full h-20 z-50">
           <Link href="/" className="justify-center cursor-pointer flex-none">
             <Image
@@ -175,6 +180,6 @@ export default function Navbar() {
           </div>
         </nav>
       </header>
-    </main>
+    </div>
   );
 }
