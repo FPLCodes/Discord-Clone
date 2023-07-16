@@ -43,7 +43,7 @@ export default function Home() {
               width={0}
               height={0}
               sizes="100vw"
-              alt="a discord call with 6 members in an ios device"
+              alt="three people in a discord video call in a voice chat called just-chillin"
             />
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                alt="a discord call with 6 members in an ios device"
+                alt="a discord call with 6 members in a voice channel called 'drawing-club' in an ios device"
               />
             </div>
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 md:col-start-2 col-span-1 md:row-start-2 row-span-2 bg-offwhite">
@@ -77,7 +77,7 @@ export default function Home() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                alt="a discord call with 6 members in an ios device"
+                alt="text-channel called 'study-group' in an android device"
               />
             </div>
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 col-span-1 row-span-2 bg-offwhite">
@@ -91,7 +91,7 @@ export default function Home() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                alt="a discord call with 6 members in an ios device"
+                alt="discord application on a desktop monitor"
               />
             </div>
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 col-span-1 row-span-2 bg-offwhite">
@@ -105,7 +105,7 @@ export default function Home() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                alt="a discord call with 6 members in an ios device"
+                alt="discord application on a laptop"
               />
             </div>
             <div className="py-12 px-10 col-span-1 row-span-2 bg-offwhite">
