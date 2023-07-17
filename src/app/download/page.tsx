@@ -2,13 +2,10 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
-const Footer = dynamic(() => import("@/app/footer"));
-const Navbar = dynamic(() => import("@/app/components/Navbar"));
-const DownloadButton = dynamic(() => import("@/app/components/DownloadButton"));
-const BlackDownloadButton = dynamic(
-  () => import("@/app/download/BlackDownloadButton")
-);
-import { Menu } from "@headlessui/react";
+const Footer = dynamic(() => import("../footer"));
+const Navbar = dynamic(() => import("../components/Navbar"));
+const DownloadButton = dynamic(() => import("../components/DownloadButton"));
+const BlackDownloadButton = dynamic(() => import("./BlackDownloadButton"));
 import DownloadDropdown from "./DownloadDropdown";
 
 export default function Home() {

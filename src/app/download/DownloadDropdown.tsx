@@ -1,8 +1,6 @@
 import { Menu } from "@headlessui/react";
 import dynamic from "next/dynamic";
-const BlackDownloadButton = dynamic(
-  () => import("@/app/download/BlackDownloadButton")
-);
+const BlackDownloadButton = dynamic(() => import("./BlackDownloadButton"));
 
 export default function DownloadDropdown({
   options,
