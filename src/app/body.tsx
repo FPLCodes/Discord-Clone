@@ -56,10 +56,7 @@ export default function Body() {
             <h2 className="font-extrabold md:text-5xl md:leading-[120%]">
               Create an invite-only place where you belong
             </h2>
-            <p
-              style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-              className="mt-6 leading-relaxed"
-            >
+            <p className="mt-6 leading-relaxed text-md">
               Discord servers are organized into topic-based channels where you
               can collaborate, share, and just talk about your day without
               clogging up a group chat.
@@ -81,10 +78,7 @@ export default function Body() {
             <h2 className="font-extrabold md:text-5xl md:leading-[120%]">
               Where hanging out is easy
             </h2>
-            <p
-              style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-              className="mt-6 font-light leading-relaxed"
-            >
+            <p className="mt-6 font-light leading-relaxed text-md">
               Grab a seat in a voice channel when you’re free. Friends in your
               server can see you’re around and instantly pop in to talk without
               having to call.
@@ -106,10 +100,7 @@ export default function Body() {
             <h2 className="font-extrabold md:text-5xl md:leading-[120%]">
               From few to a fandom
             </h2>
-            <p
-              style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-              className="pt-6 font-light leading-relaxed"
-            >
+            <p className="pt-6 font-light leading-relaxed text-md">
               Get any community running with moderation tools and custom member
               access. Give members special powers, set up private channels, and
               more.
@@ -123,10 +114,7 @@ export default function Body() {
             <h2 className="font-extrabold font-headline">
               RELIABLE TECH FOR STAYING CLOSE
             </h2>
-            <p
-              style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-              className="pt-6 text-medium font-light"
-            >
+            <p className="pt-6 text-medium font-light text-md">
               Low-latency voice and video feels like you’re in the same room.
               Wave hello over video, watch friends stream their games, or gather
               up and have a drawing session with screen share.

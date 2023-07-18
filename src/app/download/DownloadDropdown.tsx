@@ -21,10 +21,7 @@ export default function DownloadDropdown({
           {options.map((option: string) => (
             <Menu.Item key={option}>
               <ul className="cursor-pointer">
-                <div
-                  style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-                  className="py-1 px-2 hover:underline hover:text-brand hover:bg-gray-200 rounded"
-                >
+                <div className="py-1 px-2 hover:underline hover:text-brand hover:bg-gray-200 rounded text-md">
                   {option}
                 </div>
               </ul>

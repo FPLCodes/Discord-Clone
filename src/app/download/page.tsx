@@ -13,16 +13,13 @@ export default function Home() {
     <main className="overflow-x-hidden font-primary">
       <div className="bg-notQuiteBlack overflow-hidden w-full flex flex-col items-center">
         <Navbar />
-        <div className="py-14 md:py-20 px-6 md:px-10 w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 gap-x-5">
+        <div className="py-14 md:py-20 lg:py-32 px-6 md:px-10 w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 gap-x-5">
           <div className="col-span-4 text-white">
             <div>
               <h1 className="font-headline font-extrabold uppercase leading-[95%] md:text-[56px]">
                 Get Discord for any device
               </h1>
-              <div
-                style={{ fontSize: "clamp(16px, 2vw, 20px)" }}
-                className="mt-6 leading-[140%]"
-              >
+              <div className="mt-6 md:mt-10 md:mb-4 leading-[140%] text-md">
                 An adventure awaits. Hang out with your friends on our desktop
                 app and keep the conversation going on mobile.
               </div>
@@ -50,7 +47,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-14 md:py-20 w-full text-notQuiteBlack flex flex-col items-center ">
+      <div className="py-14 md:py-20 lg:py-32 w-full text-notQuiteBlack flex flex-col items-center ">
         <div className="w-full max-w-7xl grid grid-cols-4 md:grid-cols-8 gap-x-5 px-6 md:px-10">
           <div className="col-span-4 md:col-span-8 grid grid-cols-[1fr] md:grid-cols-[1fr_1fr] md:grid-rows-[156px_auto_156px_auto_156px] gap-5">
             <div className="overflow-hidden h-[363px] md:h-[600px] rounded-2xl p-14 col-span-1 row-span-2 bg-offwhite">
