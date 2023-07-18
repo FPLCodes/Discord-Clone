@@ -130,12 +130,18 @@ export default function Navbar() {
                       </Link>
                       <div className="w-full h-[1px] mt-6 mb-4 bg-zinc-100"></div>
                       <nav className="text-base">
-                        <a className="flex items-center py-2 px-4 cursor-pointer hover:underline bg-zinc-100 text-sky-500 rounded-lg">
+                        <Link
+                          href="/"
+                          className="flex items-center py-2 px-4 cursor-pointer hover:underline bg-zinc-100 text-sky-500 rounded-lg"
+                        >
                           <span>Home</span>
-                        </a>
-                        <a className="flex items-center py-2 px-4 cursor-pointer hover:underline">
+                        </Link>
+                        <Link
+                          href="/download"
+                          className="flex items-center py-2 px-4 cursor-pointer hover:underline"
+                        >
                           <span>Download</span>
-                        </a>
+                        </Link>
                         <a className="flex items-center py-2 px-4 cursor-pointer hover:underline">
                           <span>Nitro</span>
                         </a>
