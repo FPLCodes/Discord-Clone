@@ -1,5 +1,3 @@
-"use client";
-
 import dynamic from "next/dynamic";
 const Intro = dynamic(() => import("./intro"));
 const Body = dynamic(() => import("./body"));

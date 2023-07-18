@@ -13,9 +13,7 @@ export default function DownloadDropdown({
     <div className="relative">
       <Menu>
         <Menu.Button>
-          <div>
-            <BlackDownloadButton dropdown text={text} />
-          </div>
+          <BlackDownloadButton dropdown text={text} />
         </Menu.Button>
         <Menu.Items className="text-start p-4 w-full top-full mt-2 absolute bg-white overflow-hidden rounded-lg shadow text-notQuiteBlack">
           {options.map((option: string) => (

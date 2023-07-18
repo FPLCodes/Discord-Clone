@@ -10,9 +10,9 @@ export default function BlackDownloadButton({
   text = "Download",
 }: Props) {
   return (
-    <button className="mt-4 rounded-full text-xl py-4 px-8 inline-flex items-center bg-notQuiteBlack text-white cursor-pointer transition-all duration-300 hover:shadow-xl hover:bg-zinc-700">
+    <div className="mt-4 rounded-full text-xl py-4 px-8 inline-flex items-center bg-notQuiteBlack text-white cursor-pointer transition-all duration-300 hover:shadow-xl hover:bg-zinc-700">
       {text}
       {dropdown ? <Dropdown /> : <></>}
-    </button>
+    </div>
   );
 }
