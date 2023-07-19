@@ -10,6 +10,8 @@ A clone of the discord landing page created with Next.js, TailwindCSS, and Headl
 This project was created to refresh and improve my front-end development skills.
 
 ## Demo
-To-do
+![alt text](https://github.com/FPLCodes/Discord-Clone/blob/main/public/demo/screenshot.png)
+
+Website: https://discord-replica.vercel.app/
 
 ![alt text](https://github.com/FPLCodes/Discord-Clone/blob/main/public/discord.svg)
