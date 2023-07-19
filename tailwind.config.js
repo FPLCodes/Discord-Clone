@@ -29,6 +29,8 @@ module.exports = {
     fontFamily: {
       headline: ["var(--font-ginto)", "Noto Sans", "Helvetica Neue"],
       primary: ["var(--font-ggSans)", "Noto Sans", "Helvetica Neue"],
+      gintoBold: ["var(--font-gintoBold)", "sans-serif"],
+      gintoNordBold: ["var(--font-gintoNordBold)", "sans-serif"],
     },
   },
   plugins: [],

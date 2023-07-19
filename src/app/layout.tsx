@@ -11,6 +11,16 @@ const ginto = localFont({
   variable: "--font-ginto",
 });
 
+const gintoBold = localFont({
+  src: "../../public/fonts/Ginto Bold.ttf",
+  variable: "--font-gintoBold",
+});
+
+const gintoNordBold = localFont({
+  src: "../../public/fonts/Ginto Nord Bold.ttf",
+  variable: "--font-gintoNordBold",
+});
+
 const ggSans = localFont({
   src: [
     {
@@ -45,7 +55,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${ginto.variable} ${ggSans.variable} font-sans`}
+      className={`${ginto.variable} ${gintoBold.variable} ${ggSans.variable} ${gintoNordBold.variable} font-sans`}
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
