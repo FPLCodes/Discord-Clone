@@ -27,3 +27,10 @@ h3 {
   transform: None;
   opacity: 1;
 }
+
+.nitro-bg {
+  background-image: url(../../public/nitro/background.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
