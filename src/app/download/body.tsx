@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import BlackDownloadButton from "./BlackDownloadButton";
-import DownloadDropdown from "./DownloadDropdown";
+import BlackDownloadButton from "./components/BlackDownloadButton";
+import DownloadDropdown from "./components/DownloadDropdown";
 
 export default function Body() {
   return (
